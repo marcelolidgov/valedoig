@@ -19,7 +19,8 @@ Ver `README.md` para os comandos. Regras combinadas com a redação:
 - Login: variáveis `VALEDOIG_EMAIL` e `VALEDOIG_SENHA`.
 - Domínios que precisam estar liberados na rede do ambiente: `valedoig.com.br`, `www.valedoig.com.br`,
   o site de origem da matéria (ex.: `www.gazetadopovo.com.br`) e, para baixar fotos, o domínio de mídia dele
-  (ex.: `media.gazetadopovo.com.br`).
+  (ex.: `media.gazetadopovo.com.br`). Já liberados: `www.gazetadopovo.com.br`, `www.parana.pr.gov.br` (AEN — foto vem do mesmo domínio).
+  Instagram e sites de câmaras/prefeituras normalmente NÃO estão liberados: pedir print + foto ao usuário.
 - A hospedagem libera o painel para o User-Agent `ValedoigAgente/1.0` e a faixa de IP 160.79.106.0/24.
   Se o painel voltar a dar 403, é o firewall da hospedagem (não a Cloudflare).
 - Gera Post (arte de storie para download) devolve imagem vazia — problema do plugin; abrir chamado na Lenium.
