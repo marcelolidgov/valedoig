@@ -27,8 +27,9 @@
   "credito": "Foto: Natália Bezerra/PCPR"
  },
  "agendamento": {
-  "data": "2026-11-01",
-  "hora": 12
+  "data": "2026-10-31",
+  "hora": 13,
+  "minuto": 30
  },
  "redes": {
   "whatsapp": true,
