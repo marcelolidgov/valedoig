@@ -17,10 +17,7 @@
   "arquivo": "21-hospital-sao-braz-vaga-cozinha-foto.jpg",
   "credito": "Imagem ilustrativa. Foto: Reprodução/Hospital São Braz"
  },
- "agendamento": {
-  "data": "2026-11-01",
-  "hora": 12
- },
+ "agendamento": "agora",
  "redes": {
   "whatsapp": true,
   "instagram_post": true,
