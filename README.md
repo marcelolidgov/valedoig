@@ -38,6 +38,7 @@ Categorias e destaques válidos estão em `publicar.js` (`CATEGORIAS`, `DESTAQUE
 
 ```bash
 node verificar.js "trecho do título"   # confere home + status no WhatsApp/Instagram
+node corrigir.js <id> "de" "para"            # corrige texto/título já cadastrado (não reenvia redes)
 node reenviar.js <id> storie|post|whatsapp|facebook
 ```
 
