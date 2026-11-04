@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node publicar.js:*)",
+      "Bash(node verificar.js:*)",
+      "Bash(node corrigir.js:*)",
+      "Bash(node reenviar.js:*)",
+      "Bash(convert:*)",
+      "Bash(identify:*)",
+      "Bash(curl:*)",
+      "Bash(git status:*)",
+      "Bash(git log:*)",
+      "Bash(git pull:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
+    ]
+  }
+}
