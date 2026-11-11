@@ -1,0 +1,60 @@
+{
+  "_comentario": "Fontes da varredura automática. 'site' é a página principal; 'feed' fica vazio até ser descoberto (RSS/Atom). Sem feed, o agente lê a página inicial e as seções de notícias.",
+  "fontes": [
+    {
+      "nome": "VVale",
+      "site": "https://www.vvale.com.br/",
+      "feed": ""
+    },
+    {
+      "nome": "Rádio Colmeia",
+      "site": "https://colmeia.am.br/",
+      "feed": ""
+    },
+    {
+      "nome": "AEN (Governo do Paraná)",
+      "site": "https://www.parana.pr.gov.br/aen",
+      "feed": ""
+    },
+    {
+      "nome": "Prefeitura de Porto União",
+      "site": "https://www.portouniao.sc.gov.br/",
+      "feed": ""
+    },
+    {
+      "nome": "Câmara de Porto União",
+      "site": "https://cmpu.sc.gov.br/",
+      "feed": ""
+    },
+    {
+      "nome": "Prefeitura de Bituruna",
+      "site": "https://www.bituruna.pr.gov.br/site/",
+      "feed": ""
+    },
+    {
+      "nome": "Prefeitura de Cruz Machado",
+      "site": "https://www.cruzmachado.pr.gov.br/",
+      "feed": ""
+    },
+    {
+      "nome": "Prefeitura de São Mateus do Sul",
+      "site": "https://www.saomateusdosul.pr.gov.br/",
+      "feed": ""
+    },
+    {
+      "nome": "Câmara de União da Vitória",
+      "site": "https://www.uniaodavitoria.pr.leg.br/",
+      "feed": ""
+    },
+    {
+      "nome": "Portal da Cidade União da Vitória",
+      "site": "https://uniaodavitoria.portaldacidade.com/",
+      "feed": ""
+    },
+    {
+      "nome": "Prefeitura de Porto Vitória",
+      "site": "https://portovitoria.pr.gov.br/",
+      "feed": ""
+    }
+  ]
+}
