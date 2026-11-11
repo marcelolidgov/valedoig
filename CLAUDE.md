@@ -4,9 +4,9 @@ Ver `README.md` para os comandos. Regras combinadas com a redação:
 
 - **Nunca publicar/agendar sem o "ok" explícito do usuário.** Antes, mostrar título, linha fina, texto,
   categoria, destaque, horário e os textos de Instagram/Facebook, e rodar o ensaio (`node publicar.js <json>`).
-  **Exceção autorizada (11/11/2026):** o agente de varredura publica sozinho até 5 matérias por dia (uma por horário autônomo: 07h, 10h, 14h, 19h e 21h), pelas regras de
+  **Exceção autorizada (11/11/2026):** o agente de varredura publica sozinho até 5 matérias por dia (uma por horário autônomo: 07h, 10h, 14h, 16h, 19h e 21h), pelas regras de
   `agente/politica-selecao.md`. Matérias que o usuário enviar continuam exigindo o "ok".
-- Horário: grade do agente (autônomo) 07h, 10h, 14h, 19h, 21h; grade do usuário 12h e 17h. O `publicar.js` escolhe o próximo livre da grade certa conforme `"faixa": "agente"` (agente) ou sem `faixa` (usuário). Só usar `"agendamento": "agora"`
+- Horário: grade do agente (autônomo) 07h, 10h, 14h, 16h, 19h, 21h; grade do usuário 12h e 17h. O `publicar.js` escolhe o próximo livre da grade certa conforme `"faixa": "agente"` (agente) ou sem `faixa` (usuário). Só usar `"agendamento": "agora"`
   quando o usuário pedir publicação imediata.
 - Redes em toda matéria, pelos plugins do painel: site, WhatsApp, Instagram feed (legenda = 1º parágrafo +
   rodapé padrão), Instagram **storie** e Facebook. Os plugins só disparam no cadastro — marcar tudo antes de enviar.

@@ -4,10 +4,10 @@ Autorizada pelo dono do projeto em 11/11/2026. Vale para as publicações **aut�
 Matérias enviadas pelo usuário seguem o fluxo com "ok" explícito (ver `CLAUDE.md`).
 
 ## Cotas
-- **Grade autônoma: 07h, 10h, 14h, 19h e 21h** (uma matéria por horário, 5 por dia). Horários 12h e 17h são do usuário.
-- Varreduras: ~06h30 (alimenta 07h, 10h e 14h) e ~13h30 (alimenta 14h, 19h e 21h), horário de Brasília.
+- **Grade autônoma: 07h, 10h, 14h, 16h, 19h e 21h** (uma matéria por horário, 5 por dia). Horários 12h e 17h são do usuário.
+- Varreduras: ~06h30 (alimenta 07h, 10h e 14h) e ~13h30 ((alimenta 14h, 16h, 19h e 21h)), horário de Brasília.
 - Se uma varredura não achar nada que cumpra os critérios, não completa a cota. Não forçar matéria fraca.
-- Horário: próximo horário livre da grade autônoma (07h, 10h, 14h, 19h, 21h). Nunca usar 12h ou 17h.
+- Horário: próximo horário livre da grade autônoma (07h, 10h, 14h, 16h, 19h, 21h). Nunca usar 12h ou 17h.
 
 ## Prioridade de fontes (em ordem)
 1. **Emergência e risco à população:** Defesa Civil (alerta de chuva, enchente, rio, deslizamento), Corpo de Bombeiros, interdições de rodovias, queda de energia ou água em grande escala.

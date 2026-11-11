@@ -9,7 +9,7 @@ const { abrir, login, UA } = require('./lib');
 
 const ADMIN = 'https://valedoig.com.br/admin/index.php';
 // Grade: agente (autônomo) 07h 10h 14h 19h 21h; usuário 12h e 17h (programadas conforme a fila)
-const HORARIOS_AGENTE = [7, 10, 14, 19, 21];
+const HORARIOS_AGENTE = [7, 10, 14, 16, 19, 21];
 const HORARIOS_USUARIO = [12, 17];
 const CATEGORIAS = { 'Brasil': 33, 'Cidades': 32, 'Concursos': 29, 'Cultura': 34, 'Economia': 30, 'Editorial': 42, 'Educação': 35, 'Entretenimento': 26, 'Especiais': 38, 'Esportes': 25, 'Geral': 1, 'Internacional': 36, 'Polícia': 31, 'Política': 28, 'Saúde': 37, 'Tecnologia': 27 };
 const DESTAQUES = { 'nenhum': 1, 'slide': 2, 'manchete': 3, 'lista home': 5, 'urgente': 11 };
