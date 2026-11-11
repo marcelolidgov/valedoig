@@ -7,3 +7,4 @@
   - 407, 21h00 de 11/11 — "São Mateus do Sul conquista Selo Diamante de Transparência 2026" (fonte: Prefeitura de São Mateus do Sul, origem: reel de 11/11 18h36).
 - Descartadas: vídeo da UB Play sobre alagamento no Jacu (só legenda curta, não publicado); fiação solta (vídeo); operações policiais e Unespar/UGV (fora da prioridade ou sem utilidade pública clara).
 - Perfil julianohassan76 é pessoal: a API não lê.
+- 11/11/2026 17:15 — teste a pedido do usuário (matéria enviada, 17h do usuário): 408? → ver resultado. Matéria 64, "Detran-PR reforça regras de renovação da CNH após mudanças de 2026", fonte Agência Estadual de Notícias, publicada imediatamente ("agora") para teste, fora da grade.
