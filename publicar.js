@@ -8,7 +8,9 @@ const { execFileSync } = require('child_process');
 const { abrir, login, UA } = require('./lib');
 
 const ADMIN = 'https://valedoig.com.br/admin/index.php';
-const HORARIOS = [7, 10, 12, 15, 18];
+// Grade: agente (autônomo) 07h 10h 14h 19h 21h; usuário 12h e 17h (programadas conforme a fila)
+const HORARIOS_AGENTE = [7, 10, 14, 19, 21];
+const HORARIOS_USUARIO = [12, 17];
 const CATEGORIAS = { 'Brasil': 33, 'Cidades': 32, 'Concursos': 29, 'Cultura': 34, 'Economia': 30, 'Editorial': 42, 'Educação': 35, 'Entretenimento': 26, 'Especiais': 38, 'Esportes': 25, 'Geral': 1, 'Internacional': 36, 'Polícia': 31, 'Política': 28, 'Saúde': 37, 'Tecnologia': 27 };
 const DESTAQUES = { 'nenhum': 1, 'slide': 2, 'manchete': 3, 'lista home': 5, 'urgente': 11 };
 
@@ -45,11 +47,11 @@ async function horariosOcupados(page) {
   return ocup;
 }
 
-function proximoHorario(ocup) {
+function proximoHorario(ocup, horarios) {
   const { data, min } = agoraSP();
   for (let d = 0; d < 7; d++) {
     const dia = maisDias(data, d);
-    for (const h of HORARIOS) {
+    for (const h of horarios) {
       if (d === 0 && h * 60 <= min + 15) continue; // precisa de folga mínima de 15 min
       if (!ocup.has(`${dia} ${h}`)) return { data: dia, hora: h };
     }
@@ -80,7 +82,8 @@ function preparaFoto() {
       ag = { data, hora: Math.floor(min / 60), minuto: min % 60 };
       console.log(`Publicação imediata: ${data} ${ag.hora}:${String(ag.minuto).padStart(2, '0')}`);
     } else if (!ag) {
-      ag = proximoHorario(await horariosOcupados(page));
+      const grade = m.faixa === 'agente' ? HORARIOS_AGENTE : HORARIOS_USUARIO;
+      ag = proximoHorario(await horariosOcupados(page), grade);
       console.log(`Próximo horário livre: ${ag.data} ${String(ag.hora).padStart(2, '0')}h`);
     }
     const foto = preparaFoto();
