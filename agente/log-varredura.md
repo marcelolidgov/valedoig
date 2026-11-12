@@ -9,3 +9,4 @@
 - Perfil julianohassan76 é pessoal: a API não lê.
 - 11/11/2026 17:15 — teste a pedido do usuário (matéria enviada, 17h do usuário): matéria 408 (JSON 64), "Detran-PR reforça regras de renovação da CNH após mudanças de 2026", fonte Agência Estadual de Notícias, publicada imediatamente ("agora") para teste, fora da grade.
 - 11/11/2026 — matéria 66 (rascunho do usuário, com ok): Moro anuncia quatro secretários; publicada no horário livre da grade do usuário (12/11 12h, agendada).
+- 12/11/2026 — matéria 67 (convite da audiência pública LOA 2027, Paula Freitas), publicada imediatamente a pedido do usuário, sem foto.
