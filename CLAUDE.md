@@ -13,6 +13,8 @@ Ver `README.md` para os comandos. Regras combinadas com a redação:
 - Matérias de outros veículos: reescrever com texto próprio, manter dados e citações fiéis, `fonte` = veículo,
   último parágrafo "Com informações de/da <veículo>." Intertítulos: itens `## ` no JSON.
 - Foto sem autoria conhecida: crédito "Foto: Reprodução".
+- **Foto tirada do Instagram:** recortar só a foto da notícia. Tirar banner, logo, faixa, chapéu e textos do portal ou da
+  emissora. A fonte vai no texto da matéria (`fonte` e último parágrafo), não na imagem.
 - Hashtag regional: `#ValeDoIguaçu` / `#valedoiguacu`.
 - Cada matéria fica em `materias/NN-slug.json` (+ foto). Commitar após publicar.
 

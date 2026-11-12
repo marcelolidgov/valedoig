@@ -32,6 +32,7 @@ Matérias enviadas pelo usuário seguem o fluxo com "ok" explícito (ver `CLAUDE
 ## Formato obrigatório (mesmo das matérias com ok)
 - Redação com texto próprio, fonte no campo `fonte` e último parágrafo "Com informações de/da <órgão ou veículo>."
 - Foto: só usar se a fonte permitir ou tiver crédito. Sem autoria conhecida, crédito "Foto: Reprodução".
+- **Foto do Instagram:** recortar só a foto da notícia, sem banner, logo, faixa, chapéu ou texto de outro veículo. A fonte fica no texto, não na imagem.
 - Redes em toda matéria (site, WhatsApp, Instagram feed e storie, Facebook), pelos plugins do painel.
 - Hashtag regional: `#ValeDoIguaçu` / `#valedoiguacu`.
 - JSON em `materias/NN-slug.json`, resultado em `materias/NN-slug-resultado.json`. Commitar após publicar.
