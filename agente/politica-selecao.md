@@ -17,6 +17,15 @@ Matérias enviadas pelo usuário seguem o fluxo com "ok" explícito (ver `CLAUDE
 5. **Polícia** (PM, PC, PRF): ocorrências de interesse público, operações, alertas e orientações. Ocorrências menores sem interesse público não entram.
 6. **Outros:** UGV, Unespar, UB Play TV, Portal da Cidade, Detran-PR, Sanepar, Copel, Assembleia Legislativa — só se tiver utilidade clara para o leitor local.
 
+## Fontes indicadas pelo dono (14/11/2026)
+Varrer estas fontes além da prioridade acima. Perfis do Instagram via business_discovery (Graph API); sites via leitura direta.
+- **Sites:** https://www.simepar.br/ (clima) · https://www.policiacivil.pr.gov.br/ (Polícia Civil)
+- **Câmaras:** @camaradeuniaodavitoria · @camarapu
+- **Portais e mídia:** @portaldacidadeuniaodavitoria · @ubplaytv
+- **Prefeituras:** @prefeituracruzmachado · @prefeiturasms · @prefeitura.paulafreitas · @prefgeneralcarneiro · @prefeitura_bituruna · @prefpaulofrontin
+- **Universidades:** @ugv.edu.br · @unesparuvoficial
+- **Perfil pessoal:** @julianohassan76 — é conta pessoal, a API não lê. Usar só se o conteúdo chegar por outra fonte com texto completo.
+
 ## Critérios para publicar (todos obrigatórios)
 - Notícia nova (publicada nas últimas 24 h na fonte) e ainda não publicada no portal. Checar antes com `verificar.js "<trecho do título>"` e na home.
 - Utilidade ou interesse público para a região.
