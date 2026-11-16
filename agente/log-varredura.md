@@ -23,3 +23,15 @@
   - Prisão de suspeito em Porto União pela morte de uma moradora de Lança (PM, 14/11): exige texto sem nomes de vítima nem suspeito; precisa de fonte oficial (PM/PC) antes de publicar.
   - Temporal que atingiu Mallet (15/11): fora da área de cobertura da política.
 - Próximo passo: adicionar as credenciais no ambiente e liberar o acesso à Graph API, se quiser as fontes do Instagram.
+
+## 16/11/2026 07:24 — ciclo manual (sem horário no JSON; grade autônoma)
+- Credenciais presentes nesta sessão; login no painel OK.
+- Fontes consultadas:
+  - Instagram via business_discovery (business id 17841459667455739, v19.0): 12 perfis da política. Posts de 15 e 16/11 em camarapu, portaldacidadeuniaodavitoria, ubplaytv, prefeituracruzmachado e prefpaulofrontin. Os demais perfis não tiveram posts de 15/11 em diante.
+  - AEN (parana.pr.gov.br/aen): lida; sem item regional de utilidade pública nas últimas 24 h.
+  - Gazeta do Povo (paraná): sem item regional relevante.
+  - Sem acesso (000 ou 403): Simepar (403), INMET, Defesa Civil PR, uniaodavitoria.pr.gov.br, camarauniaodavitoria.pr.gov.br, portaldacidadeuniaodavitoria.com.br e aen.pr.gov.br.
+- Publicadas: nenhuma. Nenhum item cumpriu todos os critérios da política.
+- Enviados à fila do usuário (agente/fila-usuario.md): (1) Portal da Cidade, prisão/ocorrência da Cidade Nova e drogas com menor (só legenda); (2) alerta de dengue e Dia D (AEN, 10/11, data do Dia D não informada).
+- Descartados: motoshow da UB Play (evento, sem utilidade pública clara); Dia da Proclamação e campanha "Juntos Pra Valer" (cobertura social, sem utilidade pública clara ou só legenda).
+- Próximo passo: liberar pelo menos Simepar, Defesa Civil PR e o site da Prefeitura de União da Vitória na rede do ambiente, para que a varredura de clima e de emergência funcione.
