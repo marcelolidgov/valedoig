@@ -58,3 +58,13 @@ Toda varredura registra em `agente/log-varredura.md`: data e hora, fontes consul
 - Quando o "ok N" chegar, publicar na hora (`"agendamento": "agora"`), com o mesmo ensaio e registro de sempre, e marcar o item como publicado na fila.
 - Rodadas agendadas não recebem respostas do chat. Elas só registram itens novos na fila e seguem o ciclo normal.
 - Antes de publicar um item aprovado, reconfirmar que ele não foi publicado nem mudou (verificar.js e home).
+
+## Foto (decisão de 16/11/2026)
+- Preferir sempre matéria com foto utilizável (própria da fonte, com crédito; ou foto do Instagram recortada 16:9).
+- Matéria sem foto: no máximo uma por dia, e nunca duas seguidas. Só entra se for de utilidade pública urgente e não houver foto utilizável; caso contrário, vai para a fila.
+- Não existe imagem de reserva neste repositório. Não usar caminho de `valedoribeira`.
+
+## Grade de rodadas (decisão de 16/11/2026)
+- Varredura 06h30: alimenta 07h, 10h e 14h.
+- Varredura 13h30: alimenta 14h, 16h, 19h e 21h.
+- Varredura 18h30: prioriza 19h e 21h (quando ainda livres).
