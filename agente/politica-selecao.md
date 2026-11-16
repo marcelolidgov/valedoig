@@ -68,3 +68,18 @@ Toda varredura registra em `agente/log-varredura.md`: data e hora, fontes consul
 - Varredura 06h30: alimenta 07h, 10h e 14h.
 - Varredura 13h30: alimenta 14h, 16h, 19h e 21h.
 - Varredura 18h30: prioriza 19h e 21h (quando ainda livres).
+
+## Sites das fontes locais (testados em 16/11/2026)
+Respondem e podem ser lidos pelas rodadas (quando a rede do ambiente estiver liberada):
+- Prefeitura de Cruz Machado: https://www.cruzmachado.pr.gov.br/
+- Prefeitura de São Mateus do Sul: https://www.saomateusdosul.pr.gov.br/
+- Prefeitura de Bituruna: https://www.bituruna.pr.gov.br/
+- Prefeitura de Porto União (SC): https://www.portouniao.sc.gov.br/ (responde 403; conferir depois)
+- Defesa Civil PR: https://www.defesacivil.pr.gov.br/
+- INMET (portal): https://portal.inmet.gov.br/
+
+Pendentes (sem resposta nos testes; endereço a confirmar com o dono):
+- Prefeituras: União da Vitória, Porto Vitória, Paula Freitas, Paulo Frontin
+- Câmaras de vereadores: todas as cidades acima
+- Entidades, escolas, hospitais e universidades: lista ainda não enviada
+- INMET alertas (alertas2.inmet.gov.br) e Portal da Cidade (www.portaldacidadeuniaodavitoria.com.br)
