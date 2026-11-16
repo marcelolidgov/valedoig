@@ -52,3 +52,9 @@ Toda varredura registra em `agente/log-varredura.md`: data e hora, fontes consul
 ## Limites conhecidos
 - Fontes de clima e Defesa Civil (Simepar, INMET, Defesa Civil PR) podem não estar liberadas na rede do ambiente. Se bloquear, registrar no log e pedir liberação; não inventar previsão.
 - Vídeos (reels) só têm a legenda como texto. Matéria só com legenda de vídeo é rasa: preferir fonte com texto.
+
+## Fila e aprovação (decisão de 16/11/2026)
+- Itens da `agente/fila-usuario.md` só são publicados depois de o usuário responder "ok N" (N = número do item) neste chat.
+- Quando o "ok N" chegar, publicar na hora (`"agendamento": "agora"`), com o mesmo ensaio e registro de sempre, e marcar o item como publicado na fila.
+- Rodadas agendadas não recebem respostas do chat. Elas só registram itens novos na fila e seguem o ciclo normal.
+- Antes de publicar um item aprovado, reconfirmar que ele não foi publicado nem mudou (verificar.js e home).
