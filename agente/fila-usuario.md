@@ -11,3 +11,4 @@ Matérias que o agente encontrou, mas não publicou sozinho (dúvida, sensibilid
 ## 17/11/2026 — caso sensível (aguarda ok do usuário)
 - Rascunho 69 (`materias/69-suspeita-abuso-crianca-paula-freitas.json`): suspeita de abuso contra criança de três anos em Paula Freitas. Fontes: Portal da Cidade (16/11) e nota oficial da Prefeitura (17/11).
 - Texto sem nome de criança, de escola, de bairro nem do profissional citado. Foto é ilustrativa (crédito "Imagem ilustrativa"). Não publicar sem o "ok" do usuário.
+- Publicada em 17/11/2026 14:19 como notícia 419 (aprovada pelo usuário, com imagem ilustrativa e todas as redes).
