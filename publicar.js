@@ -101,6 +101,7 @@ function preparaFoto() {
       await page.setInputFiles(`${f} input[name=foto]`, foto);
       await page.fill(`${f} input[name=descricao_foto]`, m.foto.credito || '');
     }
+    if (m.galeria) await page.evaluate(sel => { const c = document.querySelector(sel); c.checked = true; c.dispatchEvent(new Event('change', { bubbles: true })); }, `${f} input[name=fotos_extras]`); // galeria: fotos extras entram depois, na edição
     await page.fill(`${f} input[name=data]`, ag.data);
     await page.fill(`${f} input[name=hora]`, String(ag.hora));
     await page.fill(`${f} input[name=minuto]`, String(ag.minuto || 0));
